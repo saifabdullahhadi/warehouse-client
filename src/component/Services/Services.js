@@ -5,16 +5,37 @@ import './Services.css';
 
 const Services = () => {
     return (
-        // Showing serevice
-        <div>
+        // Showing answers
+            <div className='row row-cols-1 row-cols-md-3 g-4' >
+            <div className='container my-5'>
             <div>
                 <h1 className="text-center text-primary my-3">My Answers</h1>
             </div>
             <div className='text-center'>
-                <h2 className='text-danger'>Q1.what is the difference between authentication and authorization?</h2>
-                <h5 className='text-center p-5'>Authentication is the act of confirming a person's identity, at the same time as authentication is the process of confirming a user's get proper of access to to precise apps, files, and data. The scenario is similar to that of an airline figuring out which passengers can board.</h5>
+            <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-danger">Q1.what is the difference between authentication and authorization? </h3>
+                                <h5 class="card-text">
+                                Authentication is the act of confirming a person's identity, at the same time as authentication is the process of confirming a user's get proper of access to to precise apps, files, and data. The scenario is similar to that of an airline figuring out which passengers can board.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title text-danger">Why are you using firebase?</h2>
+                                <h5 class="card-text">
+                                For energetic apps, Firebase manages a much less specialized and time-saving choice to developing full-fledged backend code. You'll be able too ought to apply this device in case you proposed to have and regulate your app withinside the cloud withinside the long run. Because Firebase is serverless, it expels the need to inconvenience roughly cloud server configuration points of interest. It moreover licenses you get confirmation to to distinctive Google things and capabilities, beside Google Drive and Sheets, as a Google Cloud benefit. For illustration, you'll purport sham data from Google Sheets and put it to utilize to serve your app quickly
+                                   </h5>
+                            </div>
+                            
+                        </div>
+                    </div>
+                
             </div>
             
+        </div>
         </div>
     );
 };
