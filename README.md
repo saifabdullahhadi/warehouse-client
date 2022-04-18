@@ -1,6 +1,6 @@
 
 ## Dr. Shahnewaj Nomi
-It's Basically Hospital Typs Site 
+It's Basically Doctor's  Portfolio 
 
 
 
@@ -9,13 +9,13 @@ It's Basically Hospital Typs Site
   
 ## Tech Stack
 
-**Client:** HTML,CSS,Bootstrap,JavaScript,React
+**Client:** HTML,CSS,Bootstrap,JavaScript,React,Authentication
 
 
 
   
 ## Feedback
 
-If you have any feedback, please reach out to us at shahnewajnomi@gmail.com
+If you have any feedback, please reach out to me at shahnewajnomi@gmail.com
 
   

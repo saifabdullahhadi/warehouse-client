@@ -19,8 +19,8 @@ const Header = () => {
                             <Link to="/home">
                                 <button type="button" className="btn btn-outline-light mx-2">Home</button>
                             </Link>
-                            <Link to="/services">
-                                <button type="button" className="btn btn-outline-light mx-2">Services</button>
+                            <Link to="/answers">
+                                <button type="button" className="btn btn-outline-light mx-2">Answers</button>
                             </Link>
                             <Link to="/checkout">
                                 <button type="button" className="btn btn-outline-light mx-2">Checkout</button>
