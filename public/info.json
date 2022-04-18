@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Cardiac Department",
+        "description": "A cardiac care unit (CCU) is a specialized hospital ward designed to treat people with serious or acute heart problems. People who undergo heart surgery also are placed in the CCU as they recover.",
+        "img": "https://i.ibb.co/8s3BWjx/cardiac.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Work Here",
+        "description": "Let us take care of your cardiac",
+        "img": "https://1.bp.blogspot.com/-ny9g601ycio/WjPWaiuj5MI/AAAAAAAAN94/81PJjD8RuV0xtCqmItCeYSGqhcm0ErzowCLcBGAs/s1600/Cardio%2BCare%2BSpecialized%2B%2526%2BGeneral%2BHospital.jpg"
+    },
+    {
+        "id": 3,
+        "name": "call me at",
+        "description": "01835972900",
+        "img": "https://cdn.dribbble.com/users/51395/screenshots/8031418/media/dfb1d54c29b9f8cb741ecb216362d289.jpg?compress=1&resize=400x300&vertical=top"
+    }
+]
