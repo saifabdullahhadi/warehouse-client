@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Department from '../Information/Information';
 import './Informations.css';
 
@@ -34,6 +35,10 @@ const Informations = () => {
                                 <h5 class="card-title">Room Facilities</h5>
                                 <p class="card-text">Get your best environment to recover</p>
                             </div>
+                            <Link to={`/checkout/`}>
+                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                                </button>
+                        </Link>
                         </div>
                     </div>
                     
@@ -45,7 +50,10 @@ const Informations = () => {
                                 <p class="card-text">
                                     Treat You As My Friend</p>
                             </div>
-                            
+                            <Link to={`/checkout/`}>
+                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                                </button>
+                        </Link>
                         </div>
                     </div>
                     <div class="col">
@@ -56,7 +64,24 @@ const Informations = () => {
                                 <p class="card-text">
                                    Your Healthy Life Is My Main Peiority</p>
                             </div>
-                            
+                            <Link to={`/checkout/`}>
+                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                                </button>
+                        </Link>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/photos/portrait-of-multicultural-medical-team-standing-in-hospital-corridor-picture-id1204177269?k=20&m=1204177269&s=612x612&w=0&h=gBL8z_6qD6MuEeVZjgrkXUMepp8zwpIEj21LqSbnpZ8=" class="doctor-image" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">24/7 Nursing Facility </h5>
+                                <p class="card-text">
+                                   No Comporomise With Nurses</p>
+                            </div>
+                            <Link to={`/checkout/`}>
+                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                                </button>
+                        </Link>
                         </div>
                     </div>
                 </div>
