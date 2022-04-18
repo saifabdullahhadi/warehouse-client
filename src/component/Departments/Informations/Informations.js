@@ -10,7 +10,7 @@ const Informations = () => {
             .then(data => setDepartments(data))
     }, [])
     return (
-        // Departments Section
+        // Service Section
         <div>
             
             <div>
