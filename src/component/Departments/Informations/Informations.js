@@ -15,7 +15,7 @@ const Informations = () => {
         <div>
             
             <div>
-                <h1 className="text-center  m-4">My Services</h1>
+                <h1 className="text-center  m-5">Laptop <span className='text-danger'>Collections</span></h1>
             </div>
             <div id="departments" className="container departments-container mt-5 mb-5">
                 {
@@ -30,13 +30,13 @@ const Informations = () => {
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
-                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/4e/56/57/standard-hotel-room-layout.jpg" class="doctor-image" alt="..." />
+                            <img src="https://images.unsplash.com/photo-1611078489935-0cb964de46d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2FtaW5nJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="doctor-image" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">Room Facilities</h5>
-                                <p class="card-text">Get your best environment to recover</p>
+                                <h5 class="card-title">Gaming Laptops</h5>
+                                <p class="card-text">For Gaming Freake</p>
                             </div>
                             <Link to={`/checkout/`}>
-                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                        <button type="button" class="btn btn-outline-dark m-5">Go To Collection Page
                                 </button>
                         </Link>
                         </div>
@@ -44,42 +44,42 @@ const Informations = () => {
                     
                     <div class="col">
                         <div class="card">
-                            <img src="https://thumbs.dreamstime.com/z/male-medicine-doctor-hold-pad-give-arm-to-shake-office-closeup-friend-welcome-introduction-thanks-gesture-work-examine-156321185.jpg" class="doctor-image" alt="..." />
+                            <img src="https://images.unsplash.com/photo-1627560270549-5c77fcde0ed3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Z2FtaW5nJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="doctor-image" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">Litsen To You</h5>
+                                <h5 class="card-title">Coder Base</h5>
                                 <p class="card-text">
-                                    Treat You As My Friend</p>
+                                    make you Jhankar Bhai</p>
                             </div>
                             <Link to={`/checkout/`}>
-                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                        <button type="button" class="btn btn-outline-dark m-5">Go To Collection Page
                                 </button>
                         </Link>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://www.mukathospital.com/wp-content/uploads/2021/04/cardiology.jpg" class="doctor-image" alt="..." />
+                            <img src="https://images.unsplash.com/photo-1609240873846-54f18451f365?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z2FtaW5nJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="doctor-image" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">Priority</h5>
+                                <h5 class="card-title">Office Work </h5>
                                 <p class="card-text">
-                                   Your Healthy Life Is My Main Peiority</p>
+                                   Concern Your Portability With Power</p>
                             </div>
                             <Link to={`/checkout/`}>
-                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                        <button type="button" class="btn btn-outline-dark  m-5">Go To Collection Page
                                 </button>
                         </Link>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
-                            <img src="https://media.istockphoto.com/photos/portrait-of-multicultural-medical-team-standing-in-hospital-corridor-picture-id1204177269?k=20&m=1204177269&s=612x612&w=0&h=gBL8z_6qD6MuEeVZjgrkXUMepp8zwpIEj21LqSbnpZ8=" class="doctor-image" alt="..." />
+                            <img src="https://images.unsplash.com/photo-1599634815922-783837212337?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGdhbWluZyUyMGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="doctor-image" alt="..." />
                             <div class="card-body">
-                                <h5 class="card-title">24/7 Nursing Facility </h5>
+                                <h5 class="card-title">order what you want </h5>
                                 <p class="card-text">
-                                   No Comporomise With Nurses</p>
+                                   Any parts Related Laptop</p>
                             </div>
                             <Link to={`/checkout/`}>
-                        <button type="button" class="btn btn-outline-danger m-2">Get It Now
+                        <button type="button" class="btn btn-outline-dark m-5">Go To Collection Page
                                 </button>
                         </Link>
                         </div>

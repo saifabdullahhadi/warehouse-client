@@ -8,10 +8,10 @@ const Header = () => {
     return (
         // header Parts
         <div className="container">
-            <Navbar  collapseOnSelect expand="lg" bg="info" variant="dark">
+            <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home" className="text-white">
-                        Dr. Shahnewaj Nomi                   </Navbar.Brand>
+                        💻Gear</Navbar.Brand>
                     <Navbar.Toggle />
 
                     <Navbar.Collapse className="justify-content-end">
@@ -20,10 +20,10 @@ const Header = () => {
                                 <button type="button" className="btn btn-outline-light mx-2">Home</button>
                             </Link>
                             <Link to="/answers">
-                                <button type="button" className="btn btn-outline-light mx-2">Answers</button>
+                                <button type="button" className="btn btn-outline-light mx-2">Blogs</button>
                             </Link>
                             <Link to="/checkout">
-                                <button type="button" className="btn btn-outline-light mx-2">Checkout</button>
+                                <button type="button" className="btn btn-outline-light mx-2">Collection</button>
                             </Link>
                             <Link to="/about">
                                 <button type="button" className="btn btn-outline-light mx-2">About Me</button>

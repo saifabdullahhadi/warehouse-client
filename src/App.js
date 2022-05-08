@@ -32,6 +32,9 @@ function App() {
             <Route path="/answers">
               <Doctors></Doctors>
             </Route>
+            <Route path="/details">
+              <Details></Details>
+            </Route>
             <PrivateRoute path="/checkout">
               <Checkout></Checkout>
             </PrivateRoute>

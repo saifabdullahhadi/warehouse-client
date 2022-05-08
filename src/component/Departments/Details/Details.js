@@ -14,7 +14,7 @@ const Details = () => {
         fetch('/info.json')
             .then(res => res.json())
             .then(data => {
-                const foundDepartment = data.find(department => department.id == departmentId)
+                const foundDepartment = data.find(department => department._id == departmentId)
                 setSingleDepartment(foundDepartment);
                 console.log(foundDepartment);
             })
@@ -32,6 +32,7 @@ const Details = () => {
                         <p class="card-text">{singleDepartment.description}</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     );
