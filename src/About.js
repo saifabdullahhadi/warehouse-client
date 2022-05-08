@@ -6,7 +6,7 @@ const About = () => {
         <div className="checkout-section container">
                 <div class="blog-card">
                     <img src="" alt="" />
-                    <h1 className="blog-title">f</h1>
+                    <h1 className="blog-title"></h1>
                     <p class="blog-overview"></p>
                 </div>
                 <div class="blog-card">

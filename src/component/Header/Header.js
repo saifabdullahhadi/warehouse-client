@@ -26,7 +26,7 @@ const Header = () => {
                                 <button type="button" className="btn btn-outline-light mx-2">Collection</button>
                             </Link>
                             <Link to="/about">
-                                <button type="button" className="btn btn-outline-light mx-2">About Me</button>
+                                <button type="button" className="btn btn-outline-light mx-2">About Us</button>
                             </Link>
 
                         </Nav>
