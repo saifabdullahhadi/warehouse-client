@@ -15,6 +15,6 @@ A Laptop Warehouse
   
 ## Feedback
 
-If you have any feedback, please reach out to me at shahnewajnomi@gmail.com
+If you have any feedback, please reach out to me at saifabdullahhadi1@gmail.com
 
   
